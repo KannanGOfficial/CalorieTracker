@@ -42,6 +42,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":theme"))
+    implementation(project(":core"))
+    implementation(project(":onboarding"))
+    implementation(project(":tracker"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
